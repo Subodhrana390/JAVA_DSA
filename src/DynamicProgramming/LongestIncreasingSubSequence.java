@@ -103,7 +103,7 @@ public class LongestIncreasingSubSequence {
     }
 
     int longestSubsequence(int n, int[] a) {
-//        return solve(n, a, 0, -1);
+//        return solveRec(n, a, 0, -1);
 
 //        int[][] dp = new int[n][n + 1];
 //        for (int[] row : dp) {

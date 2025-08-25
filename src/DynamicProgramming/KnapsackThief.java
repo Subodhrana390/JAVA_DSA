@@ -98,7 +98,7 @@ public class KnapsackThief {
     // Entry Point - Choose which method to use
     int knapsack(Vector<Integer> weight, Vector<Integer> value, int n, int maxWeight) {
         // 1. Recursive
-        // return solve(weight, value, n - 1, maxWeight);
+        // return solveRec(weight, value, n - 1, maxWeight);
 
         // 2. Memoization
         // int[][] dp = new int[n][maxWeight + 1];
